@@ -1,0 +1,307 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin : 10;
+    max-width: 100vw;
+    max-height : 100vh;
+
+}
+section{
+    background-color:#a78f8d;
+    padding: 20px;
+    width: 100vw;
+    height : 100vh;
+    
+    
+}
+
+.hero{
+    background-color:#2e1114;
+    width : 100vw;
+    height:100vh; /*100% of the view port height to make the hero section a bit bigger than other section*/
+    color:white;
+    font-size: 40px;
+}
+
+footer{
+    height:600px;
+    color:black;
+    padding:100px;
+    background-color:#a78f8d;
+}
+
+
+nav{
+    display: flex; /*For appearing in a line*/
+    justify-content: space-between; /*nav bar onto right*/
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 30px;
+    color:white;
+    
+    
+}
+
+li{
+    width: 200px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin:0;
+}
+h2{
+    font-size:60px;
+
+}
+
+p{
+    margin:0;
+    font-weight: 300;
+    font-size:30px;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 300px;
+    font-size: 10px;
+    font-family: cursive;
+    
+    
+}
+
+.button{
+    width:200px;
+    height: 55px;
+    border-radius: 25px;
+    background-color:darkgrey;
+    text-align: center;
+    font-weight: 300;
+    font-size:30px;
+    padding-top: 5px;
+    margin-top: 20px;
+
+}
+
+.button:hover{
+    background-color:darkgray;
+}
+
+.button:active{
+    background-color:blanchedalmond;
+    color:black
+}
+
+.socials{
+    padding:100px;
+    padding-bottom: 400px;
+    padding-left: 20px;
+
+
+    
+}
+
+.logo{
+    height: 200px;
+    margin: 30px;
+    border-radius: 300px;
+}
+
+.social{
+    margin:40px;
+
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    padding-bottom: 100px;
+}
+
+.skills{
+    display:flex;
+    font-size:20px;
+    font-weight:300;
+    width:100px;
+    column-width: 100px;
+    
+ }
+
+ .resume{
+     display: inline;
+     padding-top: 10px;
+     text-align: left;
+
+
+ }
+
+ .information{
+     font-size:20px;
+    
+ }
+
+.sub-section-alternative{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headshot{
+    width: 300px;
+    border-radius: 170px;
+}
+
+.headshot-container{
+    display:flex;
+    align-items: center;
+}
+
+
+.project-card{
+    width:400px;
+    height:600px;
+    box-shadow: 5px 5px 20px;
+    padding-left: 10px;
+    
+
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width:1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    display: flex;
+    width:300px;
+    border-radius: 200px;
+    padding-left: 20px;
+    padding-top: 40px;
+    
+}
+
+.subtext{
+    display: flex;
+    font-size: 20px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger :focus{
+    outline:0;
+}
+
+@media only screen and (max-width:1000px){
+    .hamburger{
+        border:0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+
+    ul{
+        display: none;
+        margin:0px;
+        
+    }
+
+    ul.show{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .logo{
+        display: none;
+    }
+    
+}
+
+#contact-form{
+    display:block;
+    max-width:400px;
+    margin: 0;
+    border:1px;
+    padding:100px;
+    padding-bottom:40px;
+    border-radius:5px;
+    background-color:dimgrey;
+    margin-bottom: 100px;
+    align-content:space-around;
+}
+
+.input-field{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+#submit-btn{
+    margin-top: 10px;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    border: none;
+    background-color:#2e1114;
+
+}
+
+.contact-form-footer{
+    display: flex;
+    padding-bottom:0px;
+    padding-right: 10px;
+    padding-left: 425px;
+    padding-top: 20px;
+}
+
+.heading{
+    display: flex;
+    font-size: 40px;
+
+}
+
+
+
+   
+
+    
+    
+
+
+
+
+
+
+

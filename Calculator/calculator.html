@@ -1,0 +1,87 @@
+<!-- HTML code for JavaScript Calculator Assignment -->
+<html>
+
+<!-- Title of the webpage -->
+<title> JavaScript Calculator Assignment </title>
+
+<head> 
+<!-- Using responsive web design option, which will give the
+browser instructions on how to control the page's
+dimensions and scaling -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Calling the .css file in HTML file -->
+<link rel="stylesheet" href="calculator.css">
+
+<!-- Calling the .js file in HTML file --> 
+<script src="calculator.js"></script> 
+</head>
+
+<!-- Creating content of the webpage -->
+<body>
+
+<!-- Creting title over the calculator -->
+<div class = title>JavaScript Calculator Assignment</div> 
+<form name="cal">
+
+<!-- Creating a table to build the calculator with display box and buttons-->
+<table class="table" border="2"> 
+
+   <!-- Creating row 01 -->
+   <tr> 
+     <td colspan="3"><input type="text" id="result"/></td> 
+     <!-- Clicking the C button, it will clear all value in display box -->
+     <td><input type="button" value="C" onclick="clr()"/> </td> 
+    </tr> 
+
+    <!-- Creating row 02 -->
+    <tr> 
+     <td><input type="button" value="1" onclick="dis('1')"/> </td> 
+     <td><input type="button" value="2" onclick="dis('2')"/> </td> 
+     <td><input type="button" value="3" onclick="dis('3')"/> </td> 
+     <!-- Cicking the Sin button, it will display the sine value of the number currently in the display box --> 
+     <td><input type="button" value="Sin" onclick="sin()"/> </td> 
+    </tr>
+
+    <!-- Creating row 03 -->
+    <tr> 
+     <td><input type="button" value="4" onclick="dis('4')"/> </td> 
+     <td><input type="button" value="5" onclick="dis('5')"/> </td> 
+     <td><input type="button" value="6" onclick="dis('6')"/> </td> 
+     <!-- Cicking the Cos button, it will display the cosine value of the number currently in the display box --> 
+     <td><input type="button" value="Cos" onclick="cos()"/> </td> 
+    </tr> 
+
+    <!-- Creating row 04 -->
+    <tr> 
+     <td><input type="button" value="7" onclick="dis('7')"/> </td> 
+     <td><input type="button" value="8" onclick="dis('8')"/> </td> 
+     <td><input type="button" value="9" onclick="dis('9')"/> </td>
+     <!-- Cicking the Tan button, it will display the tangent value of the number currently in the display box -->  
+     <td><input type="button" value="Tan" onclick="tan()"/> </td> 
+    </tr>
+
+    <!-- Creating row 05 -->
+    <tr>
+     <td><input type="button" value="+" onclick="dis('+')"/> </td>
+     <td><input type="button" value="-" onclick="dis('-')"/> </td>
+     <td><input type="button" value="*" onclick="dis('*')"/> </td> 
+     <td><input type="button" value="/" onclick="dis('/')"/> </td> 
+    </tr>
+
+    <!-- Creating row 06 -->
+    <tr> 
+     <td><input type="button" value="." onclick="dis('.')"/> </td> 
+     <td><input type="button" value="0" onclick="dis('0')"/> </td> 
+     <!-- solve() function will evaluate the value in display box -->
+     <td><input type="button" value="=" onclick="solve()"/> </td> 
+     <td><input type="button" value="%" onclick="percentage()"/> </td> 
+    </tr> 
+
+<!-- End of Table -->
+</table>
+</form>
+<!-- End of content in the webpage -->
+</body>
+<!-- End of HTML code -->
+</html>
